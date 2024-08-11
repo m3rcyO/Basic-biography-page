@@ -1,0 +1,47 @@
+header {
+    background-color: hotpink;
+    text-align: center;
+    padding: 20px;
+}
+header img {
+    width: 150px;
+    height: 100px
+    margin: 10px;
+}
+header h1 {
+    font-size: 24px;
+}
+header p{
+    font-size: 18px;
+    color: grey;
+}
+
+#about h2 {
+    margin-bottom: 10px;}
+
+
+h2{
+    background-color: hotpink;
+    color: mustard;
+}
+footer{
+    background-color: hotpink;
+}
+#work{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    font: bold;
+    cursor: pointer;
+}
+#contact{
+    background-color: skyblue;
+    border: thin;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    font-weight: 20px;
+    cursor: pointer;
+}
