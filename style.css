@@ -1,47 +1,77 @@
-header {
-    background-color: hotpink;
-    text-align: center;
-    padding: 20px;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
 }
+
+header {
+  background-color: #ff69b4;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
 header img {
-    width: 150px;
-    height: 100px
-    margin: 10px;}
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 75px;
+}
 
 header h1 {
-    font-size: 24px;
-}
-header p{
-    font-size: 18px;
-    color: grey;
+  font-size: 28px;
+  margin: 10px;
 }
 
-#about h2 {
-    margin-bottom: 10px;}
+header p {
+  font-size: 18px;
+  color: #eee;
+}
 
+h2 {
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
 
-h2{
-    background-color: hotpink;
-    color: mustard;
+#about,
+#family,
+#values {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
 }
-footer{
-    background-color: hotpink;
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-#work{
-    background-color: black;
-    color: white;
-    border: none;
-    height: 40px;
-    border-radius: 20px;
-    font: bold;
-    cursor: pointer;
+
+.btn:hover {
+  background-color: blue;
 }
-#contact{
-    background-color: skyblue;
-    border: thin;
-    height: 40px;
-    width: 100px;
-    border-radius: 2px;
-    font-weight: 20px;
-    cursor: pointer;
+
+footer {
+  background-color: #ff69b4;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px;
 }
